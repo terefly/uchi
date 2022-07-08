@@ -1,0 +1,26 @@
+.page-header
+    font-family: Roboto, sans-serif
+    font-size: 0.875rem
+
+    min-height: 4.57em
+
+    background-color: #2196F3
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24)
+
+    &_navigation-list
+        display: flex
+    &_navigation-item
+        min-height: 4.57em
+        padding: 1.5em
+
+        display: flex
+        justify-content: center
+        align-items: center
+        transition: background-color, 0.2s
+
+        color: rgba(255, 255, 255, 0.7)
+        &.nav-active
+            background-color: #1E88E5
+            color: #FFFFFF
+        &:hover
+            background-color: #42A5F5
